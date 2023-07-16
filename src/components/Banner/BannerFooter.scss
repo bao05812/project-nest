@@ -1,0 +1,63 @@
+.banner-footer{
+    background: url("../../assets/images/banner-10-min.png") no-repeat center/cover;
+    height: 337px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    border-radius: 10px;
+    position: relative;
+    img {
+        position: absolute;
+        width: 500px;
+        bottom: 0;
+        right: 40px;
+    }
+    .content-banner{
+        p {
+            color: var(--color-heading);
+            font-size: 35px;
+            font-family: var(--font-quicksand);
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        span{
+            color:var(--color-heading);
+            font-family: var(--font-quicksand);
+            font-size: 15px;
+        }
+        form {
+            position: relative;
+            width: 400px;
+            margin-top: 20px;
+            input {
+                position: absolute;
+                width: 100%;
+                padding: 15px 20px;
+                border-radius: 50px;
+                background-color: white;
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                color: #838383;
+            }
+            button {
+                position: absolute;
+                cursor: pointer;
+                font-family: var(--font-quicksand);
+                font-weight: 500;
+                font-size: 16px;
+                color: white;
+                 padding: 15px 20px;
+                border-radius: 50px;
+                background-color:var(--color-green);
+                right: 0;
+                top: 0;
+                &:hover{
+                    background-color: #29a56c;
+                }
+            }
+
+        }
+    }
+}

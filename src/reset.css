@@ -1,0 +1,75 @@
+/* // @import './components/Card/_grid.scss';
+// @import './components/Card/_media.scss'; */
+
+:root {
+    --color-green: #3BB77E;
+    --primary-color-dark: #29a56c;
+    --white: white;
+    --border-color: rgb(242,243,244);
+    --border-color-2: #bce3c9;
+    --border-radius: 10px;
+    --blue: #67bcee;
+    --color-grey-4: #adadad;
+    --color-heading: #253d4e;
+    --color-brand-2: #fdc040;
+    --background-3: #def9ec;
+    --font-quicksand :  'Quicksand', sans-serif;
+    --font-lato: 'Lato', sans-serif;
+    --color-purple: #cc2255;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-quicksand) ;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+button, input{
+    outline: none;
+    background-color: none;
+    border: none;
+}
+img {
+    display: block;
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+}
+.flex2{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+.a-end{
+    align-items: flex-end;
+}
+.flex3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex4{
+    display: flex;
+    align-items: center;
+}
+.j-between{
+    justify-content: space-between;
+}
+.flex5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

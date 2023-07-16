@@ -1,0 +1,297 @@
+.HeaderBottom {
+  margin-top: 14px;
+}
+.HeaderBottom .menuBarLeft button {
+  padding: 0 23px;
+  border-radius: 4px;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 44px;
+  background-color: #3BB77E;
+  position: relative;
+}
+.HeaderBottom .menuBarLeft button .dropdown-wrapper {
+  opacity: 0;
+  visibility: hidden;
+}
+.HeaderBottom > a {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #253D4E;
+}
+.HeaderBottom > a i {
+  color: var(--color-green);
+}
+.HeaderBottom .menuBarCenter > a {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #253D4E;
+  margin-left: 34px;
+  transition: 0.3s;
+}
+.HeaderBottom .menuBarCenter > a:hover {
+  color: var(--color-green);
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(1) {
+  position: relative;
+  padding-bottom: 20px;
+  transition: 0.5s;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(1) .dropdownHome {
+  position: absolute;
+  display: block;
+  border: 1px solid #DEDFE2;
+  top: 40px;
+  right: 0px;
+  padding: 10px 20px;
+  background-color: white;
+  transition-delay: 0.5s;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(1) .dropdownHome a {
+  display: inline-block;
+  color: #999999;
+  margin-bottom: 10px;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(1) .dropdownHome a:hover {
+  color: #51c890;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(1):hover .dropdownHome {
+  display: block;
+  right: -40px;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(3) {
+  position: relative;
+  padding-bottom: 20px;
+  transition: 0.3s;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(3):hover .dropdownHome2 {
+  display: block;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(3) .dropdownHome2 {
+  cursor: default;
+  position: absolute;
+  display: none;
+  background-color: white;
+  padding: 0 20px;
+  width: 1300px;
+  top: 40px;
+  right: -700px;
+  z-index: 100;
+  border-radius: 10px;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(3) .dropdownHome2 li p {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--color-green);
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(3) .dropdownHome2 li a {
+  display: block;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #7E7E7E;
+  padding-bottom: 15px;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(3) .dropdownHome2 li:nth-of-type(4) {
+  position: relative;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(3) .dropdownHome2 li:nth-of-type(4) p {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(3) .dropdownHome2 li:nth-of-type(4) span {
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #253D4E;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(3) .dropdownHome2 li:nth-of-type(4) a {
+  position: absolute;
+  top: 210px;
+  left: 50px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  padding: 10px 15px;
+  background-color: #3BB77E;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(3) .dropdownHome2 li:nth-of-type(4) a:hover {
+  color: #253D4E;
+  background-color: goldenrod;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(4) {
+  position: relative;
+  padding-bottom: 20px;
+  transition: 0.3s;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(4):hover .dropdownHome2 {
+  display: block;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(4) .dropdownHome2 {
+  cursor: default;
+  position: absolute;
+  display: none;
+  background-color: white;
+  padding: 10px 10px;
+  width: 1350px;
+  top: 40px;
+  right: -580px;
+  z-index: 100;
+  border-radius: 10px;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(4) .dropdownHome2 li p {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--color-green);
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(4) .dropdownHome2 li a {
+  display: block;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #7E7E7E;
+  padding-bottom: 15px;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(4) .dropdownHome2 li a:nth-last-of-type() {
+  padding-bottom: 0px;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(4) .dropdownHome2 li:nth-of-type(4) {
+  position: relative;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(4) .dropdownHome2 li:nth-of-type(4) span {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #253D4E;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(4) .dropdownHome2 li:nth-of-type(4) a {
+  position: absolute;
+  top: 140px;
+  left: 50px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  padding: 10px 15px;
+  background-color: #3BB77E;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(5) {
+  position: relative;
+  padding-bottom: 20px;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(5) .dropdownHome {
+  position: absolute;
+  display: none;
+  top: 40px;
+  right: -60px;
+  padding: 10px 20px;
+  background-color: white;
+  width: 150px;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(5) .dropdownHome a {
+  display: inline-block;
+  color: #999999;
+  margin-bottom: 10px;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(5) .dropdownHome a:hover {
+  color: #51c890;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(5):hover .dropdownHome {
+  display: block;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(6) {
+  position: relative;
+  padding-bottom: 20px;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(6) .dropdownHome {
+  width: 150px;
+  position: absolute;
+  display: none;
+  top: 40px;
+  right: -80px;
+  padding: 10px 20px;
+  background-color: white;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(6) .dropdownHome a {
+  display: inline-block;
+  color: #999999;
+  margin-bottom: 10px;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(6) .dropdownHome a:hover {
+  color: #51c890;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(6):hover .dropdownHome {
+  display: block;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(7) {
+  position: relative;
+  padding-bottom: 20px;
+  z-index: 100;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(7) .dropdownHome {
+  cursor: default;
+  width: 250px;
+  position: absolute;
+  display: none;
+  top: 40px;
+  right: -150px;
+  padding: 10px 20px;
+  background-color: white;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(7) .dropdownHome a {
+  display: block;
+  color: #999999;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(7) .dropdownHome a:hover {
+  color: #51c890;
+}
+.HeaderBottom .menuBarCenter > a:nth-of-type(7):hover .dropdownHome {
+  display: block;
+}
+.HeaderBottom .menuBarRight i {
+  color: #253D4E;
+  margin-right: 10px;
+}
+.HeaderBottom .menuBarRight div p {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 26px;
+  color: var(--color-green);
+  cursor: pointer;
+}
+.HeaderBottom .menuBarRight div p:hover {
+  color: rgb(79, 0, 0);
+}
+.HeaderBottom .menuBarRight div span {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #7E7E7E;
+}/*# sourceMappingURL=HeaderBottom.css.map */

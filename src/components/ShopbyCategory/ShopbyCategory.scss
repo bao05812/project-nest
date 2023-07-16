@@ -1,0 +1,95 @@
+.shop-by-category {
+    .menu-shop-category {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 30px 0 30px 10px;
+        p {
+            color: var(--color-heading);
+            font-size: 25px;
+            font-family: var(--font-quicksand);
+            line-height: 25px;
+            font-weight: bold;
+            margin-right: 140px;
+        }
+        a {
+            color: var(--color-green);
+            font-family: var(--font-quicksand);
+            i{
+                font-size: 12px;
+            }
+        }
+    }
+    .slick-arrow {
+        top: 0;
+        opacity: 0;
+        visibility: hidden;
+        &.slick-prev {
+            background: #adadad;
+            // top: -30%;
+            // left: 90%;
+            border-radius: 50%;
+            padding: 17px;
+            &::before {
+                content: '';
+            }
+        }
+
+        &.slick-next {
+            background: #adadad;
+            border-radius: 50%;
+            padding: 17px;
+            border: 1px solid yellow;
+            // right: 0;
+            // top: -30%;
+            &::before {
+                
+                content: "";
+                color:blue;
+                z-index: 1000;
+            }
+        }
+    }
+    .slick-dots {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .card-shop-category {
+        border-radius: 5px;
+        padding: 20px;
+        border: 1px solid var(--color-grey-4);
+        background-color: #f4f6fa;
+        text-align: center;
+        width: 150px;
+        height: 180px;
+        &:hover {
+            background-color: white;
+            box-shadow: 5px 5px 5px rgba(lightblue, 50%);
+            a {
+                color: var(--color-green);
+            }
+        }
+        img {
+            width: 70px;
+            height: 70px;
+            transition: .3s;
+            margin-left: 20px;
+            &:hover {
+                transform: scale(105%);
+            }
+        }
+        a {
+            margin-top: 10px;
+            color: #4d3d4e;
+            font-size: 15px;
+            font-family: var(--font-quicksand);
+            font-weight: bold;
+            display: block;
+        }
+
+        span {
+            font-size: 13px;
+            font-family: var(--font-quicksand);
+        }
+    }
+}

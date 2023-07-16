@@ -1,0 +1,51 @@
+.sidemenu-actions {
+    position: fixed;
+    transition: .5s;
+    right: 0;
+    top:50%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(#333, 0.2);
+    background-color: white;
+    border-radius: 3px;
+    z-index: 100;
+    button {
+        background-color: white;
+        cursor: pointer;
+        padding: 10px;
+        position: relative;
+        
+        img{
+            width: 22px;
+        }
+ 
+        &:first-child {
+            border-bottom: 1px solid rgba(#333, 0.2);
+        }
+        &:hover{
+            .infor{
+                opacity: 1;
+                visibility: visible;
+                transform:  translateX(0) translateX(-60%);
+            }
+        }
+        .infor{
+            font-family: var(--font-quicksand);
+            font-weight: 600;
+            font-size: 13px;
+            transition: .5s;
+            position: absolute;
+            background-color: var(--color-green);
+            color: white;
+            padding: 5px 20px;
+            border-radius: 3px;
+            right: 0;
+            top: 20%;
+            opacity: 0;
+            visibility: hidden;
+        }
+        .infor2{
+            right: -30%;
+        }
+    }
+}

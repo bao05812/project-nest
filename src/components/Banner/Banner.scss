@@ -1,0 +1,125 @@
+.bbanner {
+    // background: url('../../assets/images/banner1200.png') no-repeat top center/cover;
+    height: 460px;
+    
+    .BannerContent {
+        padding-top: 60px;
+        p:nth-of-type(1) {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            font-size: 72px;
+            line-height: 72px;
+            color: #253D4E;
+            text-align: center;
+            margin-bottom: 27px;
+        }
+
+        p:nth-of-type(2) {
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 28px;
+            color: #7E7E7E;
+            text-align: center;
+            margin-bottom: 61px;
+        }
+
+        form {
+            position: relative;
+            width: 500px;
+            margin-left: 50px;
+            input {
+                position: absolute;
+                width: 100%;
+                padding: 22px 30px;
+                border-radius: 50px;
+                background-color: white;
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #838383;
+            }
+
+            button {
+                position: absolute;
+                cursor: pointer;
+                font-family: 'Quicksand', sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 18px;
+                color: white;
+                padding: 23px 30px;
+                border-radius: 50px;
+                background-color: #3BB77E;
+                right: 0;
+                top: 0px;
+            }
+
+        }
+    }
+
+}
+
+.banner-item1 {
+    background: url('../../assets/images/banner1365.jpg') no-repeat top center/cover;
+
+}
+
+.banner-item2 {
+    background: url('../../assets/images/banner1360.jpg') no-repeat top center/cover;
+
+}
+.slick-dots {
+    bottom: 20px;
+    >li{
+        button {
+            &::before{
+                content: '';
+                width: 13px;
+                height: 13px;
+                border: 1px solid black;
+                border-radius: 50%;
+                color: transparent;
+                opacity: 1;
+            }
+        }
+        &.slick-active{
+            button {
+                &::before{
+                    background: var(--color-green);
+                    border: 1px solid var(--color-green);
+                }
+            }
+        }
+    }
+}
+.slick-arrow {
+ &:hover{
+ 
+    &.slick-prev{
+        &::before{
+            color: var(--color-green);
+        }
+    }
+    &.slick-next{
+        &::before{
+            color: var(--color-green);
+        }
+    }
+ }
+    &.slick-prev{
+        left: 20px;
+        z-index: 100;
+        font-size: 50px;
+        &::before{
+            font-size: 50px;
+        }
+    }
+    &.slick-next{
+        right: 40px;
+        &::before{
+            font-size: 50px;
+        }
+    }
+}

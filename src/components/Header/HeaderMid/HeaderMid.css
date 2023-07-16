@@ -1,0 +1,130 @@
+.headerMid {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--white);
+}
+.headerMid form {
+  position: relative;
+  width: 600px;
+}
+@media (max-width: 970px) {
+  .headerMid form {
+    width: 300px;
+  }
+}
+.headerMid form input {
+  padding: 17px;
+  width: 100%;
+  border: 2px solid #BCE3C9;
+  border-radius: 4px;
+  font-style: italic;
+  color: #999999;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+.headerMid form input:focus {
+  border: 2px solid #9ce0b3;
+}
+.headerMid form button {
+  padding: 13px 22px;
+  cursor: pointer;
+  color: white;
+  background-color: var(--color-green);
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 3px;
+}
+.headerMid form button:hover {
+  background-color: goldenrod;
+}
+.headerMid > p {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  padding: 7px 16px;
+  border-radius: 5px;
+  border: 1px solid #ECECEC;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+  color: var(--color-green);
+  cursor: pointer;
+  transition: 0.3s;
+}
+@media (max-width: 1300px) {
+  .headerMid > p {
+    display: none;
+  }
+}
+.headerMid > p:hover {
+  transform: translateY(-5px);
+}
+.headerMid .menu p {
+  margin-left: 15px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #7E7E7E;
+  cursor: pointer;
+}
+.headerMid .menu p:nth-of-type(1) {
+  position: relative;
+}
+.headerMid .menu p:nth-of-type(1)::after {
+  position: absolute;
+  content: "0";
+  border-radius: 50%;
+  color: white;
+  background-color: var(--color-green);
+  padding: 2px 8px;
+  top: -20px;
+  right: 60px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+.headerMid .menu p:nth-of-type(2) {
+  position: relative;
+}
+.headerMid .menu p:nth-of-type(2)::after {
+  position: absolute;
+  content: "0";
+  border-radius: 50%;
+  color: white;
+  background-color: var(--color-green);
+  padding: 2px 8px;
+  top: -20px;
+  right: 50px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+.headerMid .menu p:nth-of-type(3) {
+  position: relative;
+}
+.headerMid .menu p:nth-of-type(3)::after {
+  position: absolute;
+  content: "0";
+  border-radius: 50%;
+  color: white;
+  background-color: var(--color-green);
+  padding: 2px 8px;
+  top: -20px;
+  right: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+.headerMid .menu p i {
+  color: #253D4E;
+}/*# sourceMappingURL=HeaderMid.css.map */

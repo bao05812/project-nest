@@ -1,0 +1,66 @@
+
+.ListRightCategory {
+    width: 220px;
+    border: 1px solid var(--border-color-2);
+    border-radius: 10px;
+    padding: 20px 10px;
+    box-shadow: 5px 10px 10px 0 rgba(lightblue, 30%) ;
+    margin-bottom: 20px;   
+    @media (max-width: 1250px) {
+        display: none;
+    }
+    >p{
+        font-size: 24px;
+        font-weight: bold;
+        font-family: var(--font-quicksand);
+        margin-bottom: 20px;
+        position: relative;
+        &::before{
+            position: absolute;
+            content: "";
+            width: 200px;
+            height: 1px;
+            background-color: var(--border-color-2);
+            bottom: -10px;
+        }
+        &::after{
+            position: absolute;
+            content: "";
+            width: 80px;
+            height: 3px;
+            background-color: var(--border-color-2);
+            bottom: -10px;
+            left:0;
+        }
+    }
+    li {
+        border-radius: 4px;
+        border: 1px solid var(--border-color-2);
+        padding: 15px;
+        margin-bottom: 10px;
+        a{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            img{
+                width: 25px;
+                margin-right: 5px;
+            }
+            span{
+                font-size: 14px;
+                color: black;
+                font-family: var(--font-quicksand);
+                font-weight: 500;
+            }
+            .badgeMenuRight{
+                padding: 5px 8px;
+                border-radius: 50%;
+                background-color: rgba(#29a56c,50%) ;
+                color: black;
+                font-size: 12px;
+                font-weight: 500;
+                font-family: var(--font-quicksand);
+            }
+        }
+    }
+}
